@@ -22,7 +22,7 @@ export const Hero = () => {
 
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <img src={profilePicture} />
+            <img src={profilePicture} alt=""/>
           </div>
         </div>
       </div>
