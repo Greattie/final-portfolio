@@ -1,36 +1,58 @@
-import proj from './assets/proj.jpg'
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+import proj from "./assets/proj.jpg";
+export const HERO_CONTENT = `I am a frontend developer living in Lgaos, Nigeria. With 2 years of hands-on 
+experience, I love building user interfaces in React and Typescript.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating 
+efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a
+variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web
+development began with a deep curiosity for how things work, and it has evolved into a career where I
+continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy
+solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active,
+exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
+    year: "Aug 2023 - Present",
     role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    company: "Snapnet Solutions",
+    description: `Assist in the development and maintenance of frontend components for client's projects.
+    Conduct testing and debugging to ensure the functionality of web applications.  
+    Develop responsive applications utilizing third-party technologies like React, Typescript and Antd for desktop and mobile platforms.
+    Design and build an interactive, user-friendly web application for Optiva and automated company processes.
+    Develop and maintain code for in-house software web applications.`,
+    technologies: ["Typescript", "React.js", "ANTD", "Tailwind", "React Query"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "Jan 2023 - Aug 2023",
+    role: "Graduate Intern - Frontend Developer ",
+    company: "Snapnet Solution",
+    description: `Collaborated with senior developers in testing, debugging, and enhancing in-house web applications.
+    Actively participated in the development of multiple software platforms, contributing code to in-house
+    applications to improve functionality and user experience. Gained hands-on experience with agile
+    methodologies, working efficiently within sprint cycles and utilizing project management tools.`,
+    technologies: ["Javascript", "React.JS", "Microsoft Azure", "React Query"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Aug 2022 - Dec 2022",
+    role: "Graduate Trainee - Analyst",
+    company: "Prospa Technology Limited",
+    description: `Conducted thorough analysis of existing systems, identifying areas for improvement and proposing innovative solutions.
+    Actively participated in training programs and collaborated with multiple departments across the
+    organization to gain a comprehensive understanding of company operations. Conducted research and collected
+    data from various sources, employing analytical techniques to derive meaningful insights.
+    Translated analysis findings into actionable business insights, providing valuable recommendations to drive informed decision-making.
+    `,
+    technologies: ["3CX", "Freshdesk", "Jira", "Intercom"],
+  },
+  {
+    year: "Aug 2021 - Jul 2022",
+    role: "Bootcamp Student",
+    company: "International Centre for Professional Development, FUNAAB",
+    description: `Cloned the Barter Student Ambassador landing page using REACT.
+    Developed a recipes application using REACT.
+    Built a calculator application using HTML, SCSS and JAVASCRIPT.
+    `,
+    technologies: ["HTML", "CSS", "Javascript", "React.JS"],
   },
 ];
 
@@ -38,15 +60,15 @@ export const PROJECTS = [
   {
     title: "E-Commerce Website",
     image: proj,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    description: `A fully functional e- commerce website with features like product listing, shopping cart, and 
+    user authentication.`,
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
     title: "Task Management App",
     image: proj,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+    description: `      An application for managing tasks and projects, with features such as task creation, assignment, and 
+      progress tracking.`,
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
@@ -59,14 +81,14 @@ export const PROJECTS = [
   {
     title: "Blogging Platform",
     image: proj,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+    description: `     A platform for creating and publishing blog posts, with features like rich text editing, commenting, 
+      and user profiles`,
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Lagos, Nigeria",
+  phoneNo: "+234 810 292 9070",
+  email: "gamubode@gmail.com",
 };
