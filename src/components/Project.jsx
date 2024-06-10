@@ -21,7 +21,7 @@ export const Project = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <a href={item.link} target="_blank">
+              <a href={item.link} target="_blank" rel="noreferrer">
                 <img
                   src={item.image}
                   width={150}
@@ -38,7 +38,7 @@ export const Project = () => {
               className="w-full max-w-xl lg:w-3/4"
             >
               <h6 className="mb-2 font-semibold">
-                <a href={item.link} target="_blank">
+                <a href={item.link} target="_blank" rel="noreferrer">
                   {item.title}
                 </a>
               </h6>
