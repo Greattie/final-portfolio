@@ -49,7 +49,7 @@ export const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiReactquery className="text-7xl text-cyan-400" />
+          <SiReactquery className="text-7xl text-[#ff3e4f]" />
         </motion.div>
         <motion.div
           variants={iconVariants(5)}
@@ -57,7 +57,7 @@ export const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiTypescript className="text-7xl text-cyan-400" />
+          <SiTypescript className="text-7xl text-[#2D71BD]" />
         </motion.div>
         <motion.div
           variants={iconVariants(2)}
@@ -65,7 +65,7 @@ export const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaGithub className="text-7xl text-cyan-400" />
+          <FaGithub className="text-7xl text-white" />
         </motion.div>
         <motion.div
           variants={iconVariants(4)}
@@ -73,7 +73,7 @@ export const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <RiTailwindCssFill className="text-7xl text-cyan-400" />
+          <RiTailwindCssFill className="text-7xl text-[#35B6ED]" />
         </motion.div>
       </motion.div>
     </div>

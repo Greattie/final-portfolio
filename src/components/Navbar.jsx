@@ -9,8 +9,12 @@ export const Navbar = () => {
         <img src={logo} alt="logo" className="mx-2 w-32 h-32" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGit />
+        <a href="https://www.linkedin.com/in/greatamubode/" target="_blank">
+          <FaLinkedin />
+        </a>
+        <a href="github.com/Greattie" target="_blank">
+          <FaGit />
+        </a>
       </div>
     </nav>
   );
