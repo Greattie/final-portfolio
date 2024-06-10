@@ -19,7 +19,7 @@ export const Hero = () => {
               animate="visible"
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
-              Great
+              Hi <br /> I'm Great
             </motion.h1>
             <motion.span
               variants={container(0.5)}
@@ -27,7 +27,7 @@ export const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Frontend Developer
+              A Frontend Developer
             </motion.span>
             <motion.p
               variants={container(1)}

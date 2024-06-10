@@ -1,14 +1,12 @@
-import proj from "./assets/proj.jpg";
-export const HERO_CONTENT = `I am a frontend developer living in Lgaos, Nigeria. With 2 years of hands-on 
-experience, I love building user interfaces in React and Typescript.`;
+import menu from "./assets/menu-app.jpeg";
+import monie from "./assets/monie.jpeg";
+import acme from "./assets/acme.jpeg";
+import colour from "./assets/colour.jpeg";
+export const HERO_CONTENT = ``;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating 
-efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a
-variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web
-development began with a deep curiosity for how things work, and it has evolved into a career where I
-continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy
-solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active,
-exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a passionate developer from Lagos, Nigeria bringing you web 
+development and design from the future. My expertise is developing next-level
+websites and web applications including full frontend design.`;
 
 export const EXPERIENCES = [
   {
@@ -58,32 +56,33 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: proj,
-    description: `A fully functional e- commerce website with features like product listing, shopping cart, and 
-    user authentication.`,
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    title: "Menu App",
+    image: menu,
+    description: `A simple menu app`,
+    technologies: ["HTML", "CSS", "Javacript"],
+    link: `https://my-menu-app-proj.netlify.app/`,
   },
   {
-    title: "Task Management App",
-    image: proj,
-    description: `      An application for managing tasks and projects, with features such as task creation, assignment, and 
-      progress tracking.`,
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    title: "Simple Language App",
+    image: monie,
+    description: `A simple language app showing the dashboard and statistics page`,
+    technologies: ["React", "Typescript", "AntD", "Vite"],
+    link: `https://moniepoint-proj.netlify.app`,
+  },
+
+  {
+    title: "Acme",
+    image: acme,
+    description: "A responsive clone of the Acme website",
+    technologies: ["HTML", "CSS"],
+    link: `https://acme-clone.netlify.app/`,
   },
   {
-    title: "Portfolio Website",
-    image: proj,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: proj,
-    description: `     A platform for creating and publishing blog posts, with features like rich text editing, commenting, 
-      and user profiles`,
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    title: "Color Generator",
+    image: colour,
+    description: `A simple colour generator app`,
+    technologies: ["HTML", "CSS", "Javascript"],
+    link: `https://colourgeneratorapp.netlify.app/`,
   },
 ];
 

@@ -21,13 +21,15 @@ export const Project = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <img
-                src={item.image}
-                width={150}
-                height={150}
-                alt={item.title}
-                className="mb-6 rounded"
-              />
+              <a href={item.link} target="_blank" rel="noreferrer">
+                <img
+                  src={item.image}
+                  width={150}
+                  height={150}
+                  alt={item.title}
+                  className="mb-6 rounded"
+                />
+              </a>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -35,7 +37,11 @@ export const Project = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold">{item.title}</h6>
+              <h6 className="mb-2 font-semibold">
+                <a href={item.link} target="_blank" rel="noreferrer">
+                  {item.title}
+                </a>
+              </h6>
               <p className="mb-4 text-neutral-400">{item.description}</p>
               {item.technologies.map((item, index) => (
                 <span
