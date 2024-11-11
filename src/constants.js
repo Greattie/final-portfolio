@@ -1,5 +1,6 @@
 import menu from "./assets/menu-app.jpeg";
-import monie from "./assets/monie.jpeg";
+import optiva from "./assets/optiva.jpg";
+import hcmatrix from "./assets/hcmatrix.png";
 import acme from "./assets/acme.jpeg";
 import colour from "./assets/colour.jpeg";
 export const HERO_CONTENT = ``;
@@ -56,18 +57,41 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "HCMatrix",
+    image: hcmatrix,
+    description: `An HR application`,
+    technologies: [
+      "React",
+      "React query",
+      "ANTD",
+      "Typescript",
+      "HTML",
+      "CSS",
+      "Javacript",
+    ],
+    link: `https://app.hcmatrix.com`,
+  },
+  {
+    title: "Optiva",
+    image: optiva,
+    description: `A citizen application`,
+    technologies: [
+      "React",
+      "React query",
+      "ANTD",
+      "Typescript",
+      "HTML",
+      "CSS",
+      "Javacript",
+    ],
+    link: `https://optiva-app.netlify.app`,
+  },
+  {
     title: "Menu App",
     image: menu,
     description: `A simple menu app`,
     technologies: ["HTML", "CSS", "Javacript"],
     link: `https://my-menu-app-proj.netlify.app/`,
-  },
-  {
-    title: "Simple Language App",
-    image: monie,
-    description: `A simple language app showing the dashboard and statistics page`,
-    technologies: ["React", "Typescript", "AntD", "Vite"],
-    link: `https://moniepoint-proj.netlify.app`,
   },
 
   {
@@ -88,6 +112,5 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Lagos, Nigeria",
-  phoneNo: "+234 810 292 9070",
   email: "gamubode@gmail.com",
 };
